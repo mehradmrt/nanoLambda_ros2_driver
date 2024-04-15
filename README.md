@@ -34,6 +34,13 @@ colcon build
 
 source install/setup.bash
 
+ros2 run nanospec NSP32_service_node
+```
+
+in a separate terminal:
+```bash
+source install/setup.bash
+
 ros2 service call /get_spectrum custom_interfaces/srv/GetSpectrum "{}"
 ```
 
