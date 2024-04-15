@@ -32,12 +32,18 @@ cd ~/ros2_ws
 
 colcon build 
 
+```
+
+### 3. call the service to get the spectra from NSP32:
+ 
+In the same terminal:
+```bash
 source install/setup.bash
 
 ros2 run nanospec NSP32_service_node
 ```
 
-in a separate terminal:
+open a separate terminal and:
 ```bash
 source install/setup.bash
 
