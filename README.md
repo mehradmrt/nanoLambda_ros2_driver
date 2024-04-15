@@ -28,12 +28,11 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 git clone https://github.com/mehradmrt/nanoLambda_ros2_driver
 
-```bash
 cd ~/ros2_ws
 
-colcon build --symlink-install
+colcon build 
 
-source ~/ros2_ws/install/setup.bash
+source install/setup.bash
 
 ros2 service call /get_spectrum custom_interfaces/srv/GetSpectrum "{}"
 
