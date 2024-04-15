@@ -7,7 +7,11 @@ Please refer to https://nanolambda.myshopify.com/pages/resources for more inform
 
 ## Prerequisites
 
-Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy but should be compatible with other ROS 2 releases such as ROS2 Humble.
+Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy but should be compatible with other ROS 2 releases such as ROS2 Humble. 
+
+Make sure you add the following reules to your usb rules:
+
+'SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A5XK3RJT", KERNEL=="ttyUSB*", SYMLINK+="nanospec"'
 
 ## Installation
 
