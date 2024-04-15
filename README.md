@@ -1,15 +1,14 @@
 # nanoLambda_ros2_driver
 
-This ROS 2 driver integrates the nanoLambda NSP32 spectrometer for spectral sampling, utilizing the nanoLambda API.
+This is a ROS2 driver built on top of nanoLambda API to enable NSP32 spectrometer for spectral sampling.
 
 Please refer to https://nanolambda.myshopify.com/pages/resources for more information.
 
-
 ## Prerequisites
 
-Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy but should be compatible with other ROS 2 releases such as ROS2 Humble. 
+Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy on a linux machine with Ubuntu 20.04, but should be compatible with other ROS2 releases such as ROS2 Humble. 
 
-Make sure you add the following reules to your usb rules:
+Make sure you add the following to your usb dev rules:
 
 `SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A5XK3RJT", KERNEL=="ttyUSB*", SYMLINK+="nanospec"`
 
