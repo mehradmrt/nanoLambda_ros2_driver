@@ -35,4 +35,13 @@ colcon build
 source install/setup.bash
 
 ros2 service call /get_spectrum custom_interfaces/srv/GetSpectrum "{}"
+```
+
+As a result the ros2 service provides the spectral data at one instance in the format:
+
+```bash
+uint16[] wavelengths
+float64[] spectrum
+```
+ 
 
