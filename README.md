@@ -1,13 +1,13 @@
 # nanoLambda_ros2_driver
 
-This ROS 2 driver integrates the nanoLambda NSP32 spectrometer for spectral sampling, utilizing the nanoLambda API. It is designed to help developers and researchers in robotics and automation to easily incorporate spectral data collection into their ROS 2 applications.
+This ROS 2 driver integrates the nanoLambda NSP32 spectrometer for spectral sampling, utilizing the nanoLambda API.
 
-Please refer to for more information. https://nanolambda.myshopify.com/pages/resources
+Please refer to https://nanolambda.myshopify.com/pages/resources for more information.
 
 
 ## Prerequisites
 
-Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy but should be compatible with other ROS 2 releases that support Python packages.
+Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy but should be compatible with other ROS 2 releases such as ROS2 Humble.
 
 ## Installation
 
@@ -26,8 +26,9 @@ Clone this repository into your ROS 2 workspace's `src` directory:
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/yourusername/nanoLambda_ros2_driver.git
+git clone https://github.com/mehradmrt/nanoLambda_ros2_driver
 
+```bash
 cd ~/ros2_ws
 
 colcon build --symlink-install
