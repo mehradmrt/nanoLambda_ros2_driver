@@ -6,7 +6,7 @@ Please refer to https://nanolambda.myshopify.com/pages/resources for more inform
 
 ## Prerequisites
 
-Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS 2 installed on your system. The driver is tested with ROS 2 Foxy Fitzroy on a linux machine with Ubuntu 20.04, but should be compatible with other ROS2 releases such as ROS2 Humble. 
+Before installing and using the nanoLambda_ros2_driver, ensure that you have ROS2 installed on your system. The driver is tested with ROS2 Foxy Fitzroy on a linux machine with Ubuntu 20.04, but should be compatible with other ROS2 releases such as ROS2 Humble. 
 
 Make sure you add the following to your usb dev rules:
 
@@ -14,9 +14,9 @@ Make sure you add the following to your usb dev rules:
 
 ## Installation
 
-### 1. Install ROS 2
+### 1. Install ROS2
 
-Follow the instructions on the ROS2 website to install ROS2:
+Follow the instructions through the following source:
 
 [ROS 2 Installation Guide](https://docs.ros.org/en/foxy/Installation.html)
 
