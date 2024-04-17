@@ -16,7 +16,7 @@ Make sure you add the following to your usb dev rules:
 
 ### 1. Install ROS 2
 
-Follow the instructions on the ROS 2 website to install ROS 2:
+Follow the instructions on the ROS2 website to install ROS2:
 
 [ROS 2 Installation Guide](https://docs.ros.org/en/foxy/Installation.html)
 
@@ -24,7 +24,7 @@ Ensure that you select the correct distribution according to your needs and oper
 
 ### 2. Setup Your Workspace
 
-Clone this repository into your ROS 2 workspace's `src` directory:
+Clone this repository into your ROS2 workspace's `src` directory:
 
 ```bash
 mkdir -p ~/ros2_ws/src
